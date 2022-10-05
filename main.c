@@ -4,16 +4,12 @@
 void main()
 {
     /*
-    Usuário GitHub: dududarochadev
-    O código abaixo implementa uma calculadora, na qual o usuário escolhe a operação desejada e os operandos.
-    O mesmo foi desenvolvido em sua totalidade pelo aluno Eduardo Lopes da Rocha (202212162), com base nos conhecimentos adquiridos durante a carreira de desenvolvedor.
-    É exibida uma mensagem pedindo para o usuário selecionar uma das opções de operações. (linha 30)
-    Caso o usuário digite um valor inválido às operações, uma mensagem de erro é exibida e o mesmo deve digitar novamente. (linha 32)
-    Caso o usuário selecione potenciação, a mensagem exibida para selecionar os operandos muda, solicitando a seleção da base e do expoente da potenciação. (linha 34)
-    Caso o usuário selecione raiz quadrada, é solicitado apenas um valor de operando. (linha 41)
-    Caso o usuário selecione divisão e tente dividir um valor por 0, uma mensagem de erro é exibida e o mesmo deve selecionar novamente os operandos. (linha 55)
-    Os valores são calculados e o resultado é exibido ao usuário. (linha 85)
-    Ao fim, o usuário seleciona se deseja continuar operando ou se deseja finalizar a execução de código utilizando uma variável de controle do tipo "char". (linha 87)
+    O código abaixo foi desenvolvido com o conhecimento de pesquisas e pelos livros no quais possuo
+    Na linha 25 é importante notar que se pede o tipo de operação na qual quer realizar 
+    Na linha 31, é preciso perceber que se tem a mensagem caso sejam inseridos números inválidos 
+    A potencialização se encontra na linha 37
+    A raiz quadrada se localiza na linha 44
+    Ao selecionar divisião e se for tentado dividir por 0, aparece uma mensagem de erro, linha 60
     */
 
     int operacao;
