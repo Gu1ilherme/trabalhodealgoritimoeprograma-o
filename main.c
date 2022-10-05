@@ -20,19 +20,19 @@ void main()
     float n1, n2, resultado;
     char controle;
 
-    printf("Eduardo Lopes da Rocha\nUniversidade LaSalle\nAnálise e desenvolvimento de sistemas\nMatrícula 202212162\n\n");
-    printf("Calculadora em C:\n");
+    printf("Guilherme P da Cunha\nUniversidade LaSalle\nADS\n 202110581\n\n");
+    printf("Calculadora em linguagem C:\n");
 
     do{
         do
         {
-            printf("\nSelecione a operação que deseja fazer:\n");
+            printf("\nSelecione a operação de seu desejo:\n");
             printf("1. Adição\n2. Subtração\n3. Divisão\n4. Multiplicação\n5. Raiz quadrada\n6. Potência\n\n");
             scanf("%d", &operacao);
 
             if(operacao > 6 || operacao < 1)
             {
-                printf("\nValor inválido, digite um valor válido.\n\n");
+                printf("\nValor iserido é inválido, por gentileza insira valores validos.\n\n");
             }
         } while(operacao > 6 || operacao < 1);
 
@@ -45,7 +45,7 @@ void main()
         }
         else if (operacao == 5)
         {
-            printf("\nDigite o valor a ser usado na raiz quadrada: ");
+            printf("\nDigite o seu valor para ser usado na raiz quadrada: ");
             scanf("%f", &n1);
         }
         else
@@ -59,7 +59,7 @@ void main()
 
                 if (operacao == 3 && n2 == 0)
                 {
-                    printf("\nNão é possível dividir nenhum valor por 0, tente novamente.\n");
+                    printf("\nNão é possível dividir os valores por 0, tente mais uma vez.\n");
                 }
             } while(operacao == 3 && n2 == 0);
         }
